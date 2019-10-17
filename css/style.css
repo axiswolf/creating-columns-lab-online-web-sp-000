@@ -62,6 +62,9 @@ img:hover {
   "c c b"
   "d e f";
 }
+.med-1 {
+  grid-area: c;
+}
 /* create your tile classes! we recommend .small .med .large */
 .small-1 {
   grid-area: a;
