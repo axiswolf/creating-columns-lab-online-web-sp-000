@@ -72,6 +72,7 @@ img:hover {
 }
 .med {
   grid-area: c;
+  width: 66%;
 }
 .small-4 {
   grid-area: e;
