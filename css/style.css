@@ -7,9 +7,7 @@ body, html {
   text-align: center;
   background-color: #666;
 }
-.container {
-  position: relative;
-}
+
 .container, h1 {
   width: 80%;
   max-width: 600px;
@@ -50,18 +48,24 @@ img:hover {
 
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 .column {
-  display: inline-block;
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 100px;
+  grid-template-areas:
+  "a c c"
+  "b c c"
+  "d e f";
 }
 /* create your tile classes! we recommend .small .med .large */
 .small-1 {
-
+  grid-area: a;
 }
 .small-2 {
-
+  grid-area: b;
 }
 .small-3 {
-
+  grid-area: d;
 }
 .med {
 
@@ -69,9 +73,4 @@ img:hover {
 
 .large {
 
-}
-
-.bigpig {
-  width: 100%;
-  height: auto;
 }
