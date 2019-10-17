@@ -70,7 +70,12 @@ img:hover {
 .med {
   grid-area: c;
 }
-
+.small-4 {
+  grid-area: e;
+}
+.small-5 {
+  grid-area: f;
+}
 .large {
 
 }
