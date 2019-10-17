@@ -50,7 +50,7 @@ img:hover {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 5px;
   grid-template-areas:
   "a c c"
   "b c c"
