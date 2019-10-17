@@ -56,8 +56,11 @@ img:hover {
   "b c c"
   "d e f";
 }
-.column {
-
+.indifferent {
+  grid-template-areas:
+  "c c a"
+  "c c b"
+  "d e f";
 }
 /* create your tile classes! we recommend .small .med .large */
 .small-1 {
