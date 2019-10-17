@@ -88,6 +88,12 @@ img{
 .small-5 {
   grid-area: f;
 }
+.dubious {
+  
+}
 .large {
-
+  grid-template-areas:
+  "a a a"
+  "a a a"
+  "a a a";
 }
