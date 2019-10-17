@@ -89,11 +89,11 @@ img{
   grid-area: f;
 }
 .dubious {
-
-}
-.large {
   grid-template-areas:
   "a a a"
   "a a a"
   "a a a";
+}
+.large {
+  grid-area: a;
 }
