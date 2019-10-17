@@ -70,6 +70,10 @@ img:hover {
 .small-3 {
   grid-area: d;
 }
+img{
+  width: 100%;
+  height: auto;
+}
 .med {
   grid-area: c;
 }
